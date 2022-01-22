@@ -19,7 +19,7 @@ RegisterCommand("xpcheck", function(source, args)
     local Character = VorpCore.getUser(_source).getUsedCharacter
 	local xp = Character.xp
 	TriggerClientEvent("vorp:TipBottom", _source, "xp atual "..xp.." ", 3000) -- retorna seu xp
-  TriggerClientEvent("vorp:TipBottom", _source, "xp "..xp.." ", 3000) -- return your xp
+       --  TriggerClientEvent("vorp:TipBottom", _source, "xp "..xp.." ", 3000) -- return your xp 
 end)
 
 
@@ -30,7 +30,7 @@ RegisterCommand("xptest", function(source, args)
 		local User = VorpCore.getUser(source)
 		local Character = User.getUsedCharacter
 		local xp = Character.xp
-		if xp >= 20 and xp <= 60 then
+		if xp >= 20 and xp <= 60 then --checa o xp necessario para ativar o evento/funcão /check the xp needed to activate the event/function
 		print("1")
      -- retorna o xp desejado para o trabalho
      --returns the desired xp for work
