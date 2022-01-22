@@ -34,7 +34,7 @@ RegisterCommand("xptest", function(source, args)
 		print("1")
      -- retorna o xp desejado para o trabalho
      --returns the desired xp for work
-     -- Add event
+     -- Add event /function
 		else
 		print("2")
 		-- retorna que você não tem o xp necessario 
